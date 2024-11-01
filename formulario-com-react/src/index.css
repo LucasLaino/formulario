@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./assets/background-image.jpg) center center repeat-x;
+  background-size: contain;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.duvidas {
+  max-width: 450px;
+  color: #fff;
+}
+
+.duvidas h1 {
+  font-size: 30x;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.duvidas p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+form {
+  max-width: 450px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 7px 0;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #a8a8a8;
+  font-size: 15px;
+}
+
+textarea {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  padding: 10px;
+  margin: 7px 0;
+  border-radius: 5px;
+  resize: none;
+}
+
+.instrucao {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.btn-submit {
+  background-color: #3ccc87;
+  padding: 15px;
+  margin-top: 25px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-submit:hover {
+  background-color: #3ccc87;
+  opacity: 0.8;
+}
+
+.campo-obrigatorio {
+  border: 1px solid #ff0000;
+}
+
+.campo-preenchido {
+  border: 1px solid #50cf01;
+}
+
+.mensagem-alerta {
+  color: #ff0000;
+  font-size: 9px;
+  margin-top: -7px;
+  visibility: hidden;
+}

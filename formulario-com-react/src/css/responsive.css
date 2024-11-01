@@ -1,0 +1,30 @@
+@media (max-width: 425px) {
+    main {
+        flex-direction: column;
+    }
+    
+    .duvidas {
+        width: 350px;
+    }
+
+    .duvidas h1 {
+        font-size: 28px;
+    }
+
+    .duvidas h1, p {
+        text-align: center;
+    }
+
+    .duvidas p {
+        font-size: 18px;
+    }
+
+    form {
+        padding: 20px;
+        width: 370px;
+    }
+
+    input {
+        width: 330px;
+    }
+}
