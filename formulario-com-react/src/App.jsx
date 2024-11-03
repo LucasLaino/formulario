@@ -4,8 +4,6 @@ import './css/responsive.css'
 
 function App() {
 
-  //Dentro do useForm tem várias informações dentro dele. Aqui estamos extraindo o register, handleSubmit e formState para os erros do useForm().
-  //O hook-form tem um método chamado watch. Esse método fica observando a mudança dos inputs.
   const { register, handleSubmit, formState: { errors } } = useForm();
 
   const handleSubmitForm = (data) => {

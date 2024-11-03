@@ -1,8 +1,47 @@
-# React + Vite
+# Formulário - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [Visão Geral](#visao-geral)
+  - [O Projeto](#o-projeto)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Meu Processo](#meu-processo)
+  - [Construído com](#construido-com)
+  - [O Que Eu Aprendi](#o-que-eu-aprendi)
+  - [Recursos Úteis](#Recursos-uteis)
+- [Autor](#autor)
 
-Currently, two official plugins are available:
+## Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### O projeto
+
+O projeto consiste em uma atualizão do validacao-de-formulario. Nesse projeto foi adicionado o React, mudanças no HTML e CSS e melhorias no JavaScript.
+
+### Screenshot
+
+![](./src/assets/Screenshot_1.png)
+
+### Links
+- Live Site URL: [Formulário - React + Vite](https://formulario-com-react-alpha.vercel.app/)
+
+## Meu processo
+
+### Construido com
+
+- HTML
+- CSS
+- JavaScript
+- React
+- [Google Fonts](https://fonts.google.com/) - Para fonte
+
+### O que eu aprendi
+
+Nesse projeto eu pude trabalhar com o React na prática, aperfeiçoando meu conhecimento com a biblioteca e pude fazer upload no Vercel pela primeira vez, aumentando o meu conhecimento.
+
+### Recursos Úteis
+
+- [React hook form](https://www.react-hook-form.com/) - Site da documentação do React hook form.
+
+## Autor
+
+- LinkedIn - [Lucas Laino](https://www.linkedin.com/in/lucaslaino/)
+- Frontend Mentor - [@LucasLaino](https://www.frontendmentor.io/profile/LucasLaino)
