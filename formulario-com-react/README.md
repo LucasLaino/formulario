@@ -18,7 +18,7 @@ O projeto consiste em uma atualizão do validacao-de-formulario. Nesse projeto f
 
 ### Screenshot
 
-![](./src/assets/Screenshot_1.png)
+![](./src/assets/form-react+vite.gif)
 
 ### Links
 - Live Site URL: [Formulário - React + Vite](https://formulario-com-react-alpha.vercel.app/)
